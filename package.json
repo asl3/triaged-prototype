@@ -7,8 +7,13 @@
   "author": "Amanda <amandastephanieliu@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.0.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
@@ -18,8 +23,10 @@
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
     "@babel/runtime": "^7.17.9",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
+    "@types/styled-components": "^5.1.14",
     "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.1",
@@ -33,5 +40,8 @@
   "scripts": {
     "start": "webpack serve --config webpack.config.js --env env=development",
     "build": "webpack --config webpack.config.js --env env=production"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   }
 }

@@ -7,6 +7,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
+        publicPath: '/'
     },
     mode: 'development',
     module: {
@@ -44,6 +45,7 @@ module.exports = {
         new CleanWebpackPlugin(),
     ],
     devServer: {
+        historyApiFallback: true,
         static: path.join(__dirname, './src'),
         port: 3001,
         hot: 'only',
