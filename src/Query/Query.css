@@ -15,7 +15,7 @@ h1 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -23,6 +23,8 @@ p {
   width: 30%;
 }
 
-#docbox {
-  background-color:	#C8C8C8 ;
+.docbox {
+  height: 50vh; 
+  width: 50vh;
+  background-color:	pink;
 }
