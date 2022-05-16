@@ -35,12 +35,13 @@ a:hover {
 }
 
 .search {
-  width: 50%;
+  width: 40%;
+  margin-bottom: 1em;
 }
 
 .docbox {
   height: auto; 
-  width: 60vh;
-  padding: 2em;
+  width: 70vh;
+  padding: 1em;
   background-color:	#ededed;
 }

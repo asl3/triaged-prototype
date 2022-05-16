@@ -13,7 +13,7 @@ const Query: React.FC<any> = () => {
 
   return (
     <div className="main">
-      <h1>Triaged</h1>
+      <h1 style={{marginTop:'1em'}}>TRIAGED</h1>
       <div className="search">
         <TextField
           id="outlined-basic"
@@ -24,7 +24,7 @@ const Query: React.FC<any> = () => {
         />
       </div>
       <div className="docbox">
-        <h2>Document Titles:</h2>
+        <h2>Documents</h2>
         <List input={inputText} />
       </div>
     </div>

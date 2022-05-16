@@ -37,10 +37,11 @@ const DocDisplay: React.FC<any> = () => {
       <div className="col-md-1"></div>
         <div className="col-md-5" style={{height: 'auto', borderWidth: '1px', borderStyle: 'solid', borderColor: 'black', padding: '1em', margin:'3em auto auto auto', boxShadow: '5px 10px #888888', cursor: 'default'}}>
           <h1>Russia may opt back into arms control treaty: Putin</h1>
+          <div className="badge" style={{backgroundColor: '#CCD9F5', color: 'black', marginBottom: '1em', marginLeft:'1em', padding:'6px'}}>Weapons</div>
           <DocText textFile={textChunks}> </DocText>
         </div>
         <div className="col-md-4" style={!hover ? {height: 'auto', marginLeft: 'auto', padding: '1em', marginRight: 'auto', marginTop: '5vh'} : {display: 'none'}}></div>
-      <div className="col-md-4" id="bgtext" style={hover ? {height: '10em', position: 'relative', top:'12em', borderRadius: '10px', backgroundColor: '#ededed', marginLeft: 'auto', padding: '1em', marginRight: 'auto', marginTop: '5vh'} : {display: 'none'}}> <b>Background:</b> The CFE was signed by 22 States in Paris on Nov 19, 1990 and represented an agreement between NATO members and Warsaw Pact countries. It was aimed at establishing a balance in europe by cutting weapons of conventional armed forces.</div>
+      <div className="col-md-4" id="bgtext" style={hover ? {height: '10em', position: 'relative', top:'14em', borderRadius: '10px', backgroundColor: '#ededed', marginLeft: 'auto', padding: '1em', marginRight: 'auto', marginTop: '5vh'} : {display: 'none'}}> <b>Background:</b> The CFE was signed by 22 States in Paris on Nov 19, 1990 and represented an agreement between NATO members and Warsaw Pact countries. It was aimed at establishing a balance in europe by cutting weapons of conventional armed forces.</div>
       <div className="col-md-1"></div>
       </div>
     </div>
