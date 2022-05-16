@@ -19,3 +19,15 @@
   margin-top: 90em;
   box-shadow: 5px 10px #888888;
 } */
+
+#bgtext:before {
+  content:"";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  top: 60px;
+  left: -29px; /* 1px buffer for zooming problems while rendering*/
+  border-width: 15px;
+  border-color: transparent #ededed transparent transparent;
+  border-style: solid;
+}
